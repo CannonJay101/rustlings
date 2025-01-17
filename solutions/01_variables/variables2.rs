@@ -11,6 +11,6 @@ fn main() {
     if x == 10 {
         println!("x is ten!");
     } else {
-        println!("x is not ten!");
+        println!("x is not ten!"); 
     }
 }

@@ -48,7 +48,7 @@ impl State {
             Message::Move(point) => self.move_position(point),
             Message::Echo(string) => self.echo(string),
             Message::ChangeColor(red, green, blue) => self.change_color(red, green, blue),
-            Message::Quit => self.quit(),
+            Message::Quit => self.quit(), 
         }
     }
 }
